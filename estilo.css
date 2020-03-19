@@ -1,66 +1,56 @@
+@charset "UTF-8";
+
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 1), transparent), url(frutas.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .3), transparent), url(frutas.jpg);
     background-attachment: fixed;
+
+
 }
 
 .principal {
-    width: 60%;
+    width: 100%;
     margin: auto;
-    top: 30px;
+    font-family: sans-serif, arial;
 }
 
-header {
-
-    margin: auto;
-}
-
-header nav .titulo {
-    font-size: 70px;
-    color: #dcdc3b;
-    text-shadow: 4px 4px 4px #333;
+.titulo {
+    text-align: center;
     text-transform: uppercase;
-    padding-top: 70px;
+    color: #fff;
 }
 
-header nav ul {
-    text-align: right;
-    padding-right: 10px;
-    padding-top: 70px;
+.principal nav {}
+
+.principal ul {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 0;
+
+
 }
 
-header nav li {
-    padding: 10px;
-    margin-right: 60px;
-    display: inline;
-    border: 2px solid #dcdc3b;
-    background: #dcdc3b;
+.principal li {
+    text-transform: uppercase;
+    list-style: none;
+    background-color: yellow;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 
-header nav li:hover {
-    background: #5a5a22;
+.principal li:hover {
+    background-color: #4c4040;
 }
 
-header nav li a {
+.principal a {
     text-decoration: none;
-    font-size: 30px;
-    letter-spacing: 5px;
     color: #fff;
-    text-transform: uppercase;
+    font-size: 25px;
 }
 
 .container {
-    width: 70%;
-    height: 35em;
-    margin: auto;
-    text-align: left;
-    letter-spacing: 2px;
-
-
-}
-
-.container h1 {
-    padding-top: 240px;
-    color: #fff;
+    text-align: center;
+    color: #188f18;
+    padding-top: 20px;
 
 }

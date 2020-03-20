@@ -1,18 +1,15 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, .9), transparent), url(frutas.jpg);
-
-
-
-}
-
-.principal {
     width: 100%;
     height: 100%;
     margin: auto;
     font-family: sans-serif, arial;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .9), transparent), url(frutas.jpg);
+    background-repeat: no-repeat;
 }
+
+.principal {}
 
 header {
     margin-top: 40px;

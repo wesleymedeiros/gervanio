@@ -2,7 +2,7 @@
 
 body {
     background-image: linear-gradient(to top, rgba(0, 0, 0, .9), transparent), url(frutas.jpg);
-    background-attachment: fixed;
+    background-attachment: scroll;
 
 
 }

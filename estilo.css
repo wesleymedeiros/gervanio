@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, .3), transparent), url(frutas.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .9), transparent), url(frutas.jpg);
     background-attachment: fixed;
 
 
@@ -9,14 +9,21 @@ body {
 
 .principal {
     width: 100%;
+    height: 100%;
     margin: auto;
     font-family: sans-serif, arial;
+}
+
+header {
+    margin-top: 40px;
 }
 
 .titulo {
     text-align: center;
     text-transform: uppercase;
-    color: #fff;
+    color: #e1e114;
+    font-size: 45px;
+
 }
 
 .principal nav {}
@@ -50,7 +57,11 @@ body {
 
 .container {
     text-align: center;
-    color: #188f18;
+    color: #e1e114;
     padding-top: 20px;
 
+}
+
+.container h1 {
+    font-size: 25px
 }
